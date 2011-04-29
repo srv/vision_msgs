@@ -10,6 +10,7 @@
   <url>http://ros.org/wiki/vision_msgs</url>
 
   <depend package="sensor_msgs"/>
+  <depend package="geometry_msgs"/>
 
 </package>
 
