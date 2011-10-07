@@ -1,7 +1,10 @@
 # Message for object detector training.
-# The stereo features should be extracted from the given
-# image so that their key point coordinates coincide with
-# the image coordinates.
+
+# camera image
 sensor_msgs/Image image
-StereoFeatures stereo_features
-ObjectDescription object_description
+
+# mask that marks the object
+Mask mask
+
+# 3D features, extracted from image above
+Features3D features3d
