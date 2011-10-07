@@ -1,4 +1,10 @@
 # Message for object detector training.
-# The message contains an image and an a object description.
+
+# camera image
 sensor_msgs/Image image
-ObjectDescription object_description
+
+# mask that marks the object
+Mask mask
+
+# 3D features, extracted from image above
+Features3D features3d
