@@ -12,9 +12,6 @@ src/*_msgs/_*.py
 src/*_msgs/_*.pyc
 msg/lisp/
 
-# Makefiles
-Makefile
-
 # eclipse temporary files
 .cproject
 .project

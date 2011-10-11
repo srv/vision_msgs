@@ -13,7 +13,6 @@ Mask mask
 
 # 2D pose of the object in the image
 geometry_msgs/Pose2D image_pose
-
-# 3D pose of the object with respect to the camera frame
-geometry_msgs/Pose pose
+# 2D scaling factor
+float32 scale
 
