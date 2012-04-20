@@ -1,5 +1,8 @@
 # Message for object detector training.
 
+# id of the object to train
+string object_id
+
 # camera image
 sensor_msgs/Image image
 
