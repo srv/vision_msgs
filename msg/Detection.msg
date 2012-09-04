@@ -1,3 +1,10 @@
+# The header's timestamp is the detection time,
+# i.e. the timestamp of the data that was used
+# for detection.
+# The frame id of the header defines the frame
+# for the object's pose given below.
+Header header
+
 # name of the detected object
 string label
 
@@ -16,3 +23,6 @@ geometry_msgs/Pose2D image_pose
 # 2D scaling factor
 float32 scale
 
+# 3D pose of the object, seen from the frame given
+# in the header
+geometry_msgs/PoseWithCovariance pose
