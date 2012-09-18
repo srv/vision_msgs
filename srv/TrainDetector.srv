@@ -1,0 +1,27 @@
+# Unique id for the object to train.
+string object_id
+
+# Stereo image containing the target,
+# if only one image is available, use
+# image_left.
+sensor_msgs/Image image_left
+sensor_msgs/Image image_right
+
+# Polygon marking the object in image_left.
+# For each point, x and y define pixel coordinates, 
+# z must be 0.
+geometry_msgs/Polygon outline
+
+# 2D pose of the object in the imag
+geometry_msgs/Pose2D image_pose
+
+---
+
+# True if training was successful, i.e. 
+# enough features for detection have been found.
+bool success
+
+# Message to communicate possible errors or
+# additional information.
+string message
+
