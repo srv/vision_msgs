@@ -1,0 +1,20 @@
+<package>
+	<name>vision_msgs</name>
+	<version>1.0.0</version>
+	<description>vision_msgs</description>
+	<author>Stephan Wirth</author>
+	<maintainer email="pl.negre@uib.cat">Pep Lluis Negre</maintainer>
+	<license>BSD</license>
+	<url type="website">http://ros.org/wiki/vision_msgs</url>
+	<url type="bugtracker">https://github.com/srv/vision_msgs/issues</url> 
+
+	<buildtool_depend>catkin</buildtool_depend>
+
+	<build_depend>sensor_msgs</build_depend>
+	<build_depend>geometry_msgs</build_depend>
+
+	<run_depend>sensor_msgs</run_depend>
+	<run_depend>geometry_msgs</run_depend>
+</package>
+
+
